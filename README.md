@@ -64,14 +64,31 @@ Após p reparo do commit, continue o processo do rebase com o comando abaixo.
 git rebase --continue
 ~~~
 
-Finalmente, **confira o novo histórico localmente** e envie ao repositório renoto **forçadamente**.
-
 ~~~bash
 git push --force
 ~~~
+
+Finalmente, **confira o novo histórico localmente** e envie ao repositório renoto **forçadamente**.
+
 
 git rebase -i (referência commit)^
 troco o que está escrito "pick" para: edit ou drop.
 git commit --amend --reset-author --no-edit --allow-empty(commit vazio com core.editor incluido code --wait)
 git rebase --continue
 git push --force
+
+# Dia 17/04/2024
+
+### Tags
+
+~~~bash
+git tag <tag> <referencia>
+~~~
+
+Utilize o comando `tag` para adicionar marcos ('milestones') a commits ou outras referências no histórico do Git. Se você não especificar a referência, o Git vai atribui a tag ao commit apontado por **HEAD**.
+
+Você deve fazer o push das tags para o repositório remoto separadamente com a fla `--tag`.
+
+~~~bash
+git push --tags
+~~~
