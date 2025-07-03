@@ -1,6 +1,8 @@
 # Inclusão de alguns códigos de commits
+<div>
+  <img align:"center" src="https://mohamed-elrefaey-77102.medium.com/a-guide-to-git-and-github-for-effective-team-collaboration-9bc261aba545" alt="Github boa práticas" />
+</div>
 
-<img align:"center" src="https://mohamed-elrefaey-77102.medium.com/a-guide-to-git-and-github-for-effective-team-collaboration-9bc261aba545" alt="Github boa práticas" />
 
 `feat`: Uma nova feature (funcionalidade).
 
